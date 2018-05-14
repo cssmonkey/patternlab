@@ -34,5 +34,10 @@ jobs:
         
       # run tests!
       - run: npm run test:single-run
+  deployment:
+    production:
+      branch: master
+      commands:
+        - firebase deploy --token "1/PytYAK-rkWmVjR2FNEMggIIzwI78Q6WH_QTZahC3ez9UCYP1cWXjvjLzCaGc3F9N"
 
 
