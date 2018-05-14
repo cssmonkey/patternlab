@@ -1,0 +1,11 @@
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+.grid {
+  display: flex;
+  &__col {
+    padding: 0 $base-padding;
+    flex: 1;
+  }
+}

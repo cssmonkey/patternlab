@@ -1,0 +1,22 @@
+{
+  "extends": "airbnb-base",
+  "rules":{
+    "linebreak-style": 0,
+    "no-var": 0,
+    "camelcase": 1               
+  },
+  "globals": {
+    "expect": true,
+    "$": true
+  },
+  "env": {
+    "mocha": true,
+    "browser": false,  
+    "node": false,       
+    "jquery": false
+  },
+  "plugins": [
+    "mocha",
+    "chai-expect"
+  ]
+}
